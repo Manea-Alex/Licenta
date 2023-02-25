@@ -1,0 +1,92 @@
+/* .search-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.search-bar form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.search-bar button {
+  padding: 0.5rem;
+  background-color: #0077c0;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+} */
+
+.search-results {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.search-results th,
+.search-results td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.search-results th {
+  background-color: #0077c0;
+  color: #fff;
+}
+
+.form-container {
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.form-input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 300px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form-submit {
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #3e8e41;
+}
+input {
+  width: 400px; /* Adjust the width as needed */
+  font-size: 20px; /* Adjust the font size as needed */
+  padding: 10px; /* Add some padding for better appearance */
+  border: none; /* Remove the default border */
+  border-radius: 5px; /* Add some border radius for better appearance */
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1); /* Add a box shadow for better appearance */
+}
+
+button {
+  /* Add some styles to the search button as well */
+  padding: 10px 20px;
+  background-color: #0077ff;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
